@@ -1,0 +1,157 @@
+.Yasin{
+    font-size:6rem;
+}
+
+.ombre-texte{
+    text-shadow:black;
+}
+
+.background-{
+    background:linear-gradient(rgba(199, 44, 147, 0.651), rgb(255, 255, 255));
+}
+
+.background{
+    background:linear-gradient(rgba(224, 84, 84, 0.233), rgb(255, 255, 255));
+}
+
+.border4{
+    border:21px solid #d89416;
+    border-radius:0px;
+    width:100%;
+}
+
+
+
+.border-2{
+    border-style: dashed double none;
+}
+
+.border-3{
+    border: ridge rgba(15, 13, 13, 0.349);
+    border-width: 3px;
+}
+
+.border1{
+    border-top:solid 3px rgb(211, 167, 46);
+    border-width:medium;
+    margin-left:2px;
+    margin-right:22px;
+    
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-j{
+    text-justify: auto;
+}
+
+.text-left{
+    text-align:left;
+}
+
+
+.color2{
+    background:linear-gradient(rgb(160, 159, 159), rgb(255, 255, 255));
+}
+
+.colgauche{
+
+    margin-top:0px;
+    color:white;
+    background:linear-gradient(rgba(2, 2, 2, 0.945), rgb(58, 58, 58));
+}
+
+.g1{
+    font-weight:bold;
+    font-weight:900;
+    font-size:x-large;
+    padding-top:1rem;
+    font-variant:small-caps;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+.g2{
+    font-weight:bold;
+    font-weight:900;
+    font-size:x-large;
+    margin-left:20px;
+    font-variant:small-caps;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+.g3{
+    font-weight:bold;
+    font-weight:900;
+    font-size:x-large;
+    padding-top:3rem;
+    animation-name: animation;
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+
+
+}
+
+.test1{
+    background: linear-gradient(135deg, #CEC148 0%, #A49447 50%, #000000 100%);
+}
+
+.justbold{
+    font-weight:bold;
+    font-weight:700;
+}
+
+.marge-anexe{
+    margin-left:10%;
+}
+
+.variant{
+    font-variant:small-caps;
+}
+
+.police{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.QR{
+    text-align:center;
+    
+}
+
+.hide{ 
+    visibility:hidden
+}
+
+@keyframes animation{
+    1% {visibility: hidden;}
+
+    20% {text-shadow: 3px 1px 3px rgb(218, 218, 218);}
+    40% {text-shadow: 3px 1px 3px rgb(255, 255, 255)}
+    60% {text-shadow: 3px 1px 3px rgb(255, 255, 255)}
+    80% {text-shadow: 3px 1px 3px rgb(66, 66, 66);}
+
+    
+    
+}
+
+#appear{
+    visibility: visible;
+    margin-left:1500px;
+    animation: hideanimation 0s ease-in 5s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes hideanimation{
+    to{
+        visibility:hidden;
+        width: 0;
+        height: 0;
+    }
+}

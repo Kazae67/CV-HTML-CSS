@@ -1,0 +1,12 @@
+Variable
+
+Une donnée qui sert à stocker et à être utilisé avec une valeur
+
+Exemple 
+
+Nous attribuons un nom à une variable "Chiffre" avec un résultat > 50 (Chiffre=50)
+
+chiffre=50
+print(2*chiffre)
+
+Résultat = 100
